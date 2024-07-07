@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+*{
+    font-family: "Hanuman", serif;
+}
+.logo h1{
+    color: rgb(11, 204, 11);
+
+}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+}
+.menu{
+    position: sticky;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    background-color: #ffffff;
+}
+ul li a.active{
+    color: rgb(11, 204, 11);
+}
+ul li a:hover{
+    color: red;
+}
+i{    color: rgb(11, 204, 11);}
+.span1{background-color: darkorange;}
+.icon .active1:hover{background-color: darkorange;}
+.dropdown-menu:hover{background-color: darkorange;}
+.dropdown .dropdown-menu{
+    background-color: rgb(118, 228, 7);
+
+}
+
+.row{
+    top: -28rem;
+    
+}
+.row h3{
+    font-size:2rem;
+    color: darkorange;
+}
+.row h2{
+    font-size: 4rem;
+    color: rgb(11, 204, 11);
+
+}   
+
+
+.input .search {
+    background-color: green;
+    border: 3px solid darkorange;
+    color: #fff;
+}
+.input .search:hover{
+    border: 3px solid rgb(9, 198, 9);
+    background-color: darkorange;
+}
+
+.circle{
+    width: 10rem;
+    height: 10rem;
+    place-self: center;
+    display: grid;
+    position: relative;
+    background-color: darkorange;
+}
+.fa-car-side, .fa-arrow-right-arrow-left{
+    font-size: 5rem;
+    place-self: center;
+    color: #fff;
+}
+.fa-user-shield, .fa-phone{
+    font-size: 5rem;
+    place-self: center;
+    color: #fff;
+}
+
+.rhombus{
+    position: absolute;
+    inset: 70% 30%;
+    width: 40%;
+    height: 40%;
+    background-color: darkorange;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.menu-product h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rebeccapurple;
+    text-shadow: 3px 2px darkorange;
+}
+
+.col-md-3{
+    width: 18rem;
+}
+.card-footer button{
+    width: 150px;
+    height: 35px;
+    background: none;
+    border: 2px solid darkorange;
+    border-radius: 45px;
+    color: green;
+    padding: 5px;
+    font-weight: 500;
+}
+.card-footer h1{
+    font-size: medium;
+}
+.card-footer button:hover{
+    background-color: darkorange;
+    border: 2px solid gray;
+}
+.best_products{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    border: 1px solid gray;
+    background-color:#e9e1e1;
+}
+.best_products .icon_star i:nth-child(1), i:nth-child(2), i:nth-child(3), i:nth-child(4){
+    color: green;
+}
+.best_products h5{
+    font-size: 1rem;
+}
+.best_products .btn_button{
+    border: 1px solid darkorange;
+    background: none;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 15px;
+}
+.best_products .btn_button:hover{
+    background-color: darkorange;
+    color: #fff;
+}
+.best_products .text{
+    margin-top: 20px;
+}
+
+
+.discount{
+    margin-top: 20rem;
+}
+.dis{
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    background-color: darkorange;
+}
+.disc{
+    width: 80%;
+    height: 20vh;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    border-radius: 25px;
+    background-color: rgb(9, 198, 9) ;
+}
+.disc h1{
+    font-size: 20px;
+    margin-top: 25px;
+    color: #fff;
+}
+.disc h5{
+    font-size: 25px;
+    color: rgb(78, 76, 76);
+}
+.banners{
+    width: 100%;
+    height: 115vh;
+    margin-top: 10rem;
+    position: relative;
+    border-radius: 25px;
+    background-color: #e0d5d575;
+}
+.banner h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: #fff;
+    font-weight: bold;
+}
+.banner h3{
+    font-size:3rem;
+    color: gray;
+    font-weight: 500;
+}
+.banner p{
+    color: gray;
+    font-weight: 500;
+}
+.banner button{
+    padding: 10px 35px;
+    border-radius: 15px;
+    background: none;
+    border: 2px solid #fff;
+}
+.banner button:hover{
+    background-color: rgb(9, 198, 9);
+}
+.banner_img{
+    position: relative;
+}
+.banners .box_show{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(169, 194, 186, 0.787);
+    border-radius: 50%;
+    display: grid;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+
+}
+.banners .box_show h1{
+    place-self: center;
+    color:#884343;
+    font-size: 2rem;
+}   
+.best h1{
+    font-size: 4rem;
+    color: gray;
+    font-weight: 600;
+    margin-top: 10rem;
+}
+.best p{
+    font-size: 1rem;
+    color: gray;
+}
+ .imgs{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.user{
+    margin-top: 12rem;
+}
+.fa-users{
+    font-size: 5rem;
+    color: darkorange;
+
+}
+.icon h2{
+    font-size: 1.5rem;
+    color: rgba(34, 147, 34, 0.589);
+    font-weight: 600;
+}
+.icon p{
+    font-size: 3rem;
+    color: rgba(128, 128, 128, 0.868);
+}
+.client{
+    margin-top: 15rem;
+}
+.client p{
+    font-size: 1rem;
+    color: rgb(9, 198, 9);
+}
+.fotter{
+    width:100%;
+    height:auto;
+    position: absolute;
+    top: 50rem;
+    background-color: rgba(47, 79, 79, 0.791);
+}
+.fotter button{
+    background: none;
+}
+.fotter h1{
+    font-size: 2.5rem;
+    color: rgba(4, 253, 4, 0.994);
+}
+.fotter p{
+    font-size: 1rem;
+    color: rgb(236, 152, 50);
+}
+.fotter .input{
+    position: absolute;
+    left: 20rem;
+    display: grid;
+}
+
+.footerText .icon .fa-twitter{
+    font-size: 2rem;
+    color: darkorange;
+}
+.footerText .icon .fa-facebook-f{
+    font-size: 2rem;
+    color: darkorange;
+}
+.footerText .icon .fa-youtube{
+    font-size: 2rem;
+    color: darkorange;
+}
+.footerText .icon .fa-linkedin-in{
+    font-size: 2rem;
+    color: darkorange;
+}
+.fotter .bg{
+    background: none;
+    border: none;
+}
+.fotter .bg h1{
+    font-size:23px;
+    color: #fff;
+    font-weight: 700;
+}
+.fotter .bg p, h5{
+    font-size: 15px;
+    color: rgb(47, 45, 45);
+}
+.fotter .type{
+    width: 60%;
+    padding: 5px 10px;
+    border: 1px solid darkorange;
+}
+.fotter .type:hover{
+    background-color: darkorange;
+}
+.group_btn button{
+    padding: 8px 25px;
+    color: green;
+    border-radius: 20px;
+    margin: 10px;
+    border: 1px solid darkorange;
+}
+.group_btn button:hover{
+    background-color: darkorange;
+    color: #fff;
+}
+/*media responsive*/
+@media (max-width:567px) {
+    .menu ul{
+         flex-direction: column;
+     }
+    .menu ul li a:hover{
+         color: rgb(11, 204, 11);
+ 
+     }
+     .icon{
+         display: flex;
+         margin: 15px;
+     }
+    .menu-product{
+        flex-direction: column;
+     }
+     .best_products{
+        margin-top: 15px;
+     }
+     .cards{
+        flex-direction: column;
+     }
+    .footerText{
+        flex-direction: column;
+    }
+    .fotter .input{
+        position:relative;
+        left:0rem;
+    }
+    .fotter{
+        width: 100%;
+        height:200vh;
+        margin-top: 10rem;
+        background-color: rgba(47, 79, 79, 0.791);
+    }
+    .copy{flex-direction: column;}
+    .banners .box_show{
+        top: 57%;
+        right: 15%;
+        width: 100px;
+        height: 100px;
+    }
+ }

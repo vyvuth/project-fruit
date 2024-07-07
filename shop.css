@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+*{
+    font-family: "Hanuman", serif;
+}
+.logo h1{
+    color: rgb(11, 204, 11);
+
+}
+ul li{
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+}
+.menu_top{
+    position: sticky;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    background-color: #fff;
+}
+ul li a.active{
+    color: rgb(11, 204, 11);
+}
+ul li a:hover{
+    color: red;
+}
+i{    color: rgb(11, 204, 11);}
+.span1{background-color: darkorange;}
+.icon .active1:hover{background-color: darkorange;}
+.dropdown-menu:hover{background-color: darkorange;}
+.dropdown .dropdown-menu{
+    background-color: rgb(118, 228, 7);
+
+}
+.main_head{
+    width: 100%;
+    height: 30vh;
+    border-radius: 5px;
+    background: rgb(212,29,96);
+    background: linear-gradient(90deg, rgba(212,29,96,1) 13%, rgba(2,0,36,1) 27%, rgba(201,1,127,1) 35%, rgba(108,3,82,1) 47%, rgba(255,0,153,1) 74%, rgba(28,4,44,1) 75%, rgba(255,0,153,1) 92%);
+}
+.bft{
+    position: absolute;
+    top: 25%;
+    padding-left: 40%;
+}
+.btn_bft button{
+    padding: 5px 2px;
+    border: none;
+    background: none;
+    color: rgb(118, 228, 7);
+}
+.btn_bft button:hover{
+    color: rgb(11, 204, 11);
+}
+.head_main{
+    margin-top: 5rem;
+}
+.head_main h1{
+    padding: 1rem;
+    color: gray;
+}
+.input-group input{
+    width: 25%;
+    height: 6vh;
+    border:2px solid gray;
+    border-radius: 20px;
+    position: relative;
+    border-right: none;
+}
+.input-group button{
+    border:2px solid gray;
+    border-radius: 20px;
+    position: absolute;
+    right: 25px;
+    border-left: none;
+    background: none;
+}
+
+
+
+
+/*media responsive*/
+@media (max-width:567px) {
+    .menu ul{
+         flex-direction: column;
+     }
+    .menu ul li a:hover{
+         color: rgb(11, 204, 11);
+ 
+     }
+     .icon{
+        display: flex;
+        margin: 15px;
+    }
+}
